@@ -20,5 +20,5 @@ As specified [here](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-selec
 # Using the notebook
 
 1. `poetry install` (don't worry about the `sd_jwt_demo does not contain any element` thing).
-2. `poetry shell`
-3. `jupyter notebook sd-yacht.ipynb`
+2. `poetry venv use`
+3. `poetry run jupyter notebook sd-yacht.ipynb`
